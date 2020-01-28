@@ -4,7 +4,7 @@
 
 ## Trying apk
 
-[Donwload apk here](/build/app/outputs/apk/app.apk)
+[Donwload apk here](https://drive.google.com/open?id=1hG6BsL0gqUNTFzcvxLM1xer79nhHwQ2W)
 
 ### Installation
 
