@@ -70,7 +70,7 @@ Use **Access Key** in Application.
 To Import project you need to start android studio which you already downloaded, Once android studio start follows below steps to import the project in the android studio.
 
 ## Follow steps to import project
-First of all go to the location where you have placed City Directory code
+First of all go to the location where you have placed this app source code
 
 1.Please extract the zip file in the same location
 
