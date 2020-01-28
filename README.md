@@ -29,7 +29,7 @@ Download Java by clicking on Java Platform (JDK)
 ## Install Android Studio
 Download & Install Android Studio from here [Download Android Studio](https://developer.android.com/sdk/index.html)
 
-![images2](https://lh3.googleusercontent.com/dwdx4gcYn53DjH8ehVC6LasviLtQwL1WtoKhdbtj9MfKylKcLtX5ILEwJccoq6qV6Z7Vmm7Tt84BGhPz5GiAuOzmbmGRD803CQkFfCA66bJ1qrhRUnEkO3p_Aj0y4LPE9XkdjTrb)
+![images2](https://imgur.com/2NTJPZK)
 
 
 
@@ -300,7 +300,7 @@ Place your facebook app id inside string file in your code
 Resource Credits
 ================
 
-Thanks for provide great material and we are very appreciates to our
+Thanks for provide great material and I am very appreciates to our
 assets provider.
 
 * * * * *
