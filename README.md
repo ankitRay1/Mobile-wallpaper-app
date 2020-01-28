@@ -89,7 +89,7 @@ By clicking on import project you will get file browser dialog, select your code
 
 ### Project Structure
 After importing project successfully you will get project structure like below image
-![ss](https://imgur.com/pwK5Seh.png)
+![ss](https://i.imgur.com/YvnTpTx.png)
 
 ### Project Structure
 Within each Android app module, files are shown in the following groups:
