@@ -52,7 +52,7 @@ You can see below page
 ![ahahah](https://imgur.com/r7sVtNV.png)
 Click on Your Apps button then you can display the below page.
 
-![img6](https://imgur.com/BQBp8qC.png)
+![img6](https://i.imgur.com/sL99w6C.png)
 
 Click on New Application then display the below page.
 ![ajajj](https://imgur.com/NvqVXjO.png)
