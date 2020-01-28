@@ -29,7 +29,7 @@ Download Java by clicking on Java Platform (JDK)
 ## Install Android Studio
 Download & Install Android Studio from here [Download Android Studio](https://developer.android.com/sdk/index.html)
 
-![images2](https://imgur.com/2NTJPZK)
+![images2](https://i.imgur.com/2NTJPZK.png)
 
 
 
