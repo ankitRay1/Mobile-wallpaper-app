@@ -1,4 +1,4 @@
-# Documentation of Wallsplash android application
+# Documentation of Mobile Wallpaper  application
 
 ## Hi Please follow below steps to configure and make changes in application source code.
 
@@ -176,7 +176,7 @@ Go to App -\> res -\> value -\> String.xml -\> Change in below line
 Change Accesskey In Application
 -------------------------------
 
-Go to App -\> Java -\> wallsplash -\> itechnotion -\> com -\> retrofit
+Go to App -\> Java -\> wallsplash -\> ankit -\> com -\> retrofit
 -\> config.java -\> replace your ***Accesskey*** in below line
 
 ![](https://imgur.com/Msy18yb.png)
@@ -184,7 +184,7 @@ Go to App -\> Java -\> wallsplash -\> itechnotion -\> com -\> retrofit
 Change Firebase Database Name
 -----------------------------
 
-Go to App -\> Java -\> wallsplash -\> itechnotion -\> com -\> retrofit
+Go to App -\> Java -\> wallsplash -\> ankit -\> com -\> retrofit
 -\> config.java -\> replace your firebase database link in below line\
  ![](https://imgur.com/iHH141P.png)
 
