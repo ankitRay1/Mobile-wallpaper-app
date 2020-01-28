@@ -132,7 +132,7 @@ For example, if you want to change `com.example.app` to
 
 2.  Uncheck / De-select the `Compact Empty Middle Packages` option
 
-![enter image description here](https://imgur.com/c8Tbwyu.png)
+![enter image description here](https://i.imgur.com/Q4pqOsU.png)
 
 3.  Your package directory will now be broken up in individual
     directories
@@ -150,7 +150,7 @@ For example, if you want to change `com.example.app` to
     -   *Note: When renaming `com` in Android Studio, it might give a
         warning. In such case, select***Rename All**
 
-    ![Enter image description here](https://imgur.com/iI8d02N.png)
+    ![Enter image description here](https://i.imgur.com/L8ImgDW.png)
 
 5.  Now open your ***Gradle Build File*** (`build.gradle` - Usually
     `app` or `mobile`). Update the `applicationId` in the
