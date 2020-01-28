@@ -33,6 +33,8 @@ Download & Install Android Studio from here [Download Android Studio](https://de
 
 
 
+
+
 Run Android SDK Manager and [download necessary SDK packages](https://developer.android.com/sdk/installing/adding-packages.html), make sure that you have installed Android SDK Tools, Android SDK Platform-tools, Android SDK Build-tools, Android Support Repository, Android Support Library and Google Play services.
 
 Now you should be able to open/edit the Android project and build APK.
