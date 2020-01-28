@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".forgotpassword.ForgotPWActivity">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="380dp"
+                        android:background="@drawable/login_background"
+                        />
+                    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/cvCancel"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="bottom|center"
+                        card_view:cardBackgroundColor="@color/colorWhite"
+                        card_view:cardCornerRadius="25dp"
+                        card_view:cardUseCompatPadding="false">
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/cancel"/>
+                    </android.support.v7.widget.CardView>
+                    <TextView
+                        android:id="@+id/tvSkip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="true"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="@dimen/m30dp"
+                        android:layout_marginRight="@dimen/m20dp"
+                        android:paddingTop="@dimen/m10dp"
+                        android:paddingBottom="@dimen/m10dp"
+                        android:paddingLeft="@dimen/m30dp"
+                        android:paddingRight="@dimen/m30dp"
+                        android:background="@drawable/bg_roundcorner_whiteborder"
+                        android:textColor="@color/colorWhite"
+                        android:text="@string/skip"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="@dimen/m20dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/logo_white"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorWhite"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/m10dp"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/m20dp"
+                            android:textStyle="bold"
+                            android:text="@string/we_help_you_to_find_free_opensource_photos"/>
+
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginTop="@dimen/m10dp"
+                    android:layout_marginBottom="@dimen/m10dp"
+                    android:imeOptions="actionNext"
+                    android:textSize="@dimen/primaryText"
+                    android:inputType="textEmailAddress"
+                    android:paddingTop="@dimen/m10dp"
+                    android:paddingBottom="@dimen/m10dp"
+                    android:paddingLeft="@dimen/m30dp"
+                    android:paddingRight="@dimen/m10dp"
+                    android:hint="@string/email"
+                    android:background="@drawable/bg_edt"/>
+
+
+                <TextView
+                    android:id="@+id/tvForgot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="@dimen/m10dp"
+                    android:layout_marginBottom="@dimen/m10dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="@dimen/m15dp"
+                    android:paddingBottom="@dimen/m15dp"
+                    android:background="@drawable/bg_reg_btn"
+                    android:textSize="@dimen/primaryText"
+                    android:text="@string/forgot_password"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

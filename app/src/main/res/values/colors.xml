@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="coloredit">#efefef</color>
+    <color name="colorEditHintText">#808080</color>
+    <color name="colortrendingLine">#d4c2bcbc</color>
+</resources>

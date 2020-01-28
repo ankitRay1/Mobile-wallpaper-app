@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="m50dp">50dp</dimen>
+    <dimen name="m30dp">30dp</dimen>
+    <dimen name="m10dp">10dp</dimen>
+    <dimen name="m20dp">20dp</dimen>
+    <dimen name="primaryText">14sp</dimen>
+    <dimen name="titleText">20sp</dimen>
+    <dimen name="m15dp">15dp</dimen>
+    <dimen name="m5dp">5dp</dimen>
+    <dimen name="m40dp">40dp</dimen>
+    <dimen name="m25dp">25dp</dimen>
+</resources>

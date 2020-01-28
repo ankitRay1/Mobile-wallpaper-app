@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_margin="@dimen/m20dp"
+    tools:context=".changePW.ChangeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/change_password"
+        android:layout_marginBottom="@dimen/m20dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/titleText"/>
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/m10dp"
+        android:layout_marginTop="@dimen/m10dp"
+        android:background="@drawable/bg_edt"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:hint="@string/oldpassword"
+        android:paddingBottom="@dimen/m10dp"
+        android:paddingLeft="@dimen/m30dp"
+        android:paddingRight="@dimen/m10dp"
+        android:paddingTop="@dimen/m10dp"
+        android:textColor="@color/colorBlack" />
+    <EditText
+        android:id="@+id/edtNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/m10dp"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/m10dp"
+        android:background="@drawable/bg_edt"
+        android:hint="@string/new_password"
+        android:paddingBottom="@dimen/m10dp"
+        android:paddingLeft="@dimen/m30dp"
+        android:paddingRight="@dimen/m10dp"
+        android:paddingTop="@dimen/m10dp"
+        android:textColor="@color/colorBlack" />
+    <EditText
+        android:id="@+id/edtConPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/m10dp"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/m10dp"
+        android:background="@drawable/bg_edt"
+        android:hint="@string/confirm_password"
+        android:paddingBottom="@dimen/m10dp"
+        android:paddingLeft="@dimen/m30dp"
+        android:paddingRight="@dimen/m10dp"
+        android:paddingTop="@dimen/m10dp"
+        android:textColor="@color/colorBlack" />
+    <TextView
+        android:id="@+id/tvUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/m10dp"
+        android:layout_marginTop="@dimen/m10dp"
+        android:background="@drawable/bg_reg_btn"
+        android:gravity="center"
+        android:paddingBottom="@dimen/m15dp"
+        android:paddingTop="@dimen/m15dp"
+        android:text="@string/submit"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/primaryText"
+        android:textStyle="bold" />
+</LinearLayout>

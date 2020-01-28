@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/AppBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivDrawer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:src="@drawable/ic_small_logo" />
+
+                <TextView
+                    android:id="@+id/txtX"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="@dimen/titleText"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="@dimen/m30dp"
+                android:layout_height="@dimen/m30dp"
+                android:layout_marginRight="@dimen/m10dp"
+                android:visibility="visible"
+                android:layout_gravity="end|center"
+                android:clickable="true"
+               />
+            <ImageView
+                android:id="@+id/ivlogout"
+                android:layout_width="@dimen/m20dp"
+                android:layout_height="@dimen/m20dp"
+                android:layout_marginRight="@dimen/m10dp"
+                android:visibility="gone"
+                android:layout_gravity="end|center"
+                android:clickable="true"
+                android:src="@drawable/ic_logout" />
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

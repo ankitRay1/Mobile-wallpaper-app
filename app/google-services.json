@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "427559090129",
+    "firebase_url": "https://wallsplash-880c5.firebaseio.com",
+    "project_id": "wallsplash-880c5",
+    "storage_bucket": "wallsplash-880c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427559090129:android:45d29eabf5dca730",
+        "android_client_info": {
+          "package_name": "wallsplash.ankitray.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427559090129-lgsjvf7cu8acb2oin2sg6e7dge15gpg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wallsplash.ankitray.com",
+            "certificate_hash": "7e09e5e361c6341f168b5ae97877c09bd4ac2fac"
+          }
+        },
+        {
+          "client_id": "427559090129-dk0vma3836u864pg2p3octe2b2ci4s01.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbc8sPqyJQSfmNGqNca8oN1XpMaQ7nlJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427559090129-dk0vma3836u864pg2p3octe2b2ci4s01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".SearchFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/m20dp"
+            android:layout_marginRight="@dimen/m20dp"
+            android:layout_marginTop="@dimen/m20dp"
+            android:background="@drawable/bg_search"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="@dimen/m10dp"
+            android:hint="@string/search_high_resolution_photos"
+            android:imeActionId="@+id/SearchBtn"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:padding="@dimen/m10dp"
+            android:textSize="@dimen/primaryText" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/m20dp"
+        android:textSize="@dimen/titleText"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/m10dp"
+        android:layout_marginRight="@dimen/m10dp"
+        android:nestedScrollingEnabled="false"
+        android:visibility="visible"
+        android:gravity="fill_vertical"
+        tools:listitem="@layout/item_trendingphotosbyid"
+        app:spanCount="3"
+        app:layoutManager="android.support.v7.widget.GridLayoutManager" />
+
+<LinearLayout
+    android:id="@+id/llNorecord"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvNorecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_record_found"
+        android:textSize="@dimen/primaryText"
+        android:textColor="@color/colorBlack"/>
+
+</LinearLayout>
+</LinearLayout>
