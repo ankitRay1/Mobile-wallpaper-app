@@ -2,6 +2,10 @@
 
 ## Hi Please follow below steps to configure and make changes in application source code.
 
+## Trying apk
+
+[Donwload apk here](/build/app/outputs/apk/app.apk)
+
 ### Installation
 
 ### Before you start
