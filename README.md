@@ -4,7 +4,7 @@
 
 ## Trying apk
 
-[Donwload apk here](https://drive.google.com/open?id=1hG6BsL0gqUNTFzcvxLM1xer79nhHwQ2W)
+[Download apk here](https://drive.google.com/open?id=1hG6BsL0gqUNTFzcvxLM1xer79nhHwQ2W)
 
 ### Installation
 
@@ -50,7 +50,7 @@ Then go to Api/Developers
 
 ![images3](https://imgur.com/esfIHPW.png)
 
-enter image description here
+Enter image description here
 
 You can see below page
 ![ahahah](https://imgur.com/r7sVtNV.png)
@@ -83,7 +83,7 @@ First of all go to the location where you have placed this app source code
 3.Browse location where you have placed NearBy Code and press “OK” button.
 
 4.Now, wait till android studio complete the Importing project successfully.
-1[hshhs](https://lh6.googleusercontent.com/RavW1fPMDJlsiWYsnpxjQbfocbOpRbb9_hqAm8hyu8lT_sTQoNhAk7LKwnuNNxYGqh7ydL_18iXaWwrsKosBlWohktXvx5QvdV1Nkdf-sy4WzikkXx8nyKcCIKs5c1-9dRHqu13Y)
+1[](https://lh6.googleusercontent.com/RavW1fPMDJlsiWYsnpxjQbfocbOpRbb9_hqAm8hyu8lT_sTQoNhAk7LKwnuNNxYGqh7ydL_18iXaWwrsKosBlWohktXvx5QvdV1Nkdf-sy4WzikkXx8nyKcCIKs5c1-9dRHqu13Y)
 
 Import project
 
