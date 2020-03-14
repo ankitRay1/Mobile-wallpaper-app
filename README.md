@@ -1,9 +1,8 @@
 # An OpenSource WallPaper App with awesome UI/UX Desingn with Unsplash api.
-![Wallpaper app screenshots](https://i.imgur.com/0rJs85x.png)
+![Wallpaper app screenshots](https://i.imgur.com/0rJs85x.png) 
 ![Wallpaper app screenshots2](https://i.imgur.com/vLYAtRo.png)
-
-
-
+![Wallpaper app screenshots3](https://i.imgur.com/UBSZzxX.png)
+![Wallpaper app screenshots4](https://i.imgur.com/zIyq3nX.png)
 
 # Documentation of Mobile Wallpaper  application
 
