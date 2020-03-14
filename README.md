@@ -4,7 +4,7 @@
 
 ## Trying apk
 
-[Download apk here](https://drive.google.com/open?id=1hG6BsL0gqUNTFzcvxLM1xer79nhHwQ2W)
+[Download apk here]()
 
 ### Installation
 
